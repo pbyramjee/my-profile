@@ -1,0 +1,108 @@
+/* colors and fonts */ 
+body {
+	background: #EDEDED; 
+	color: black; 
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: courier;
+}
+
+h1{
+	color: #706C61; 
+	font-weight: 900;
+	font-size: 30px;
+}
+
+h2{
+	color: rgb(100, 100, 100);
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 900;
+}
+
+a{
+	font-family: sketchy ;
+	color: black ;
+	text-decoration: none;
+	font-weight: 1000, 
+	font-size: 15px;
+}
+a:hover {
+	color: #3282B8 ;
+}
+
+/*custom design with class*/ 
+
+.principale {
+	background-color: #EDEDED;
+	width: 1000px;
+	margin: 100px auto;
+	border: #FFFFFF; 
+}
+
+.card-white {
+	background-color: #FFFFFF;
+	padding: 100px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 3px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 30%;
+}
+
+
+.btn-blue {
+	background-color: #E1F4F3;
+	color: black;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+ 
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p {
+	margin-bottom: 45px; 
+}
+
+
+
+@media (max-width: 850px) {
+	.principale {
+		width: 750px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.principale {
+		width: 250px;
+	}
+}
+
+
+div{
+	background: white;
+	border: 7px solid #706C61;
+	margin: 20px;
+}
+
+
